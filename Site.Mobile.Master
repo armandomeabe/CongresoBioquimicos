@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Mobile.master.cs" Inherits="Acreditaciones.Site_Mobile" %>
+<%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>
+
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>III Congreso de Bioquímicos del Litoral</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--Para obtener más información sobre cómo agrupar scripts en ScriptManager, consulte http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Scripts de Framework--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Scripts del sitio--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">III Congreso de Bioquímicos del Litoral, XVI Jornadas Argentinas de Microbiología.</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/">Inicio</a></li>
+                        <li><a runat="server" href="~/Acreditar">Acreditación</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <div class="row well">
+                <table class="table table-responsive table-condensed">
+                    <tr>
+                        <td>Contacto</td>
+                        <td>Contacto</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Colegio de Bioquímicos de Santa Fe </td>
+                        <td>Asociación Argentina de Microbiologí­a</td>
+                    </tr>
+                    <tr>
+                        <td>Irigoyen Freyre 2940 - Santa Fe</td>
+                        <td>Horario de atención: de lunes a viernes de 17.30 a 19.30 hs</td>
+                    </tr>
+                    <tr>
+                        <td>Tel/Fax: +54 (342) 4534144 / 4120203
+                        </td>
+                        <td>Teléfono: +54 (342) 455-2203
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email: bioquimicossantafe@gmail.com
+                        </td>
+                        <td>Email: aamstafe@yahoo.com.ar
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://www.cobisfe1.org.ar/" target="_blank">http://www.cobisfe1.org.ar/</a></td>
+                        <td><a href="http://www.aam.org.ar/" target="_blank">http://www.aam.org.ar/</a></td>
+                    </tr>
+                </table>
+            </div>
+            <center><img src="Content/Imagenes/logos.jpg" /></center>
+
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - III Congreso de Bioquímicos del Litoral, XVI Jornadas Argentinas de Microbiología.</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
