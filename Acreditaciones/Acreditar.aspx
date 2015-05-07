@@ -169,13 +169,13 @@
                             <asp:Button runat="server" ID="Button10" CommandArgument="(Col. Bioq.) No COlegiado $2200" OnClick="Validar" CssClass="btn btn-primary btn-sm btn-block" Text="$ 2200" /></td>
                     </tr>
                     <tr>
-                        <td>Estudiante</td>
+                        <td>Estudiante de grado de grado</td>
                         <td class="etapa_1">
-                            <asp:Button runat="server" ID="Button11" CommandArgument="(Col. Bioq.) Estudiante $350" OnClick="Validar" CssClass="btn btn-primary btn-sm btn-block" Text="$ 350" /></td>
+                            <asp:Button runat="server" ID="Button11" CommandArgument="(Col. Bioq.) Estudiante de grado $350" OnClick="Validar" CssClass="btn btn-primary btn-sm btn-block" Text="$ 350" /></td>
                         <td class="etapa_2">
-                            <asp:Button runat="server" ID="Button12" CommandArgument="(Col. Bioq.) Estudiante $450" OnClick="Validar" CssClass="btn btn-primary btn-sm btn-block" Text="$ 450" /></td>
+                            <asp:Button runat="server" ID="Button12" CommandArgument="(Col. Bioq.) Estudiante de grado $450" OnClick="Validar" CssClass="btn btn-primary btn-sm btn-block" Text="$ 450" /></td>
                         <td class="etapa_3">
-                            <asp:Button runat="server" ID="Button13" CommandArgument="(Col. Bioq.) Estudiante $550" OnClick="Validar" CssClass="btn btn-primary btn-sm btn-block" Text="$ 550" /></td>
+                            <asp:Button runat="server" ID="Button13" CommandArgument="(Col. Bioq.) Estudiante de grado $550" OnClick="Validar" CssClass="btn btn-primary btn-sm btn-block" Text="$ 550" /></td>
                     </tr>
                     <tr>
                         <td>Extranjero</td>
@@ -216,13 +216,13 @@
                             <asp:Button runat="server" ID="Button25" CommandArgument="(AAM) No Socio $ 2200" OnClick="Validar" CssClass="btn btn-primary btn-sm btn-block" Text="$ 2200" /></td>
                     </tr>
                     <tr>
-                        <td>Estudiante</td>
+                        <td>Estudiante de grado</td>
                         <td class="etapa_1">
-                            <asp:Button runat="server" ID="Button26" CommandArgument="(AAM) Estudiante $350" OnClick="Validar" CssClass="btn btn-primary btn-sm btn-block" Text="$ 350" /></td>
+                            <asp:Button runat="server" ID="Button26" CommandArgument="(AAM) Estudiante de grado $350" OnClick="Validar" CssClass="btn btn-primary btn-sm btn-block" Text="$ 350" /></td>
                         <td class="etapa_2">
-                            <asp:Button runat="server" ID="Button27" CommandArgument="(AAM) Estudiante $ 450" OnClick="Validar" CssClass="btn btn-primary btn-sm btn-block" Text="$ 450" /></td>
+                            <asp:Button runat="server" ID="Button27" CommandArgument="(AAM) Estudiante de grado $ 450" OnClick="Validar" CssClass="btn btn-primary btn-sm btn-block" Text="$ 450" /></td>
                         <td class="etapa_3">
-                            <asp:Button runat="server" ID="Button28" CommandArgument="(AAM) Estudiante $ 550" OnClick="Validar" CssClass="btn btn-primary btn-sm btn-block" Text="$ 550" /></td>
+                            <asp:Button runat="server" ID="Button28" CommandArgument="(AAM) Estudiante de grado $ 550" OnClick="Validar" CssClass="btn btn-primary btn-sm btn-block" Text="$ 550" /></td>
                     </tr>
                     <tr>
                         <td>Extranjero</td>
