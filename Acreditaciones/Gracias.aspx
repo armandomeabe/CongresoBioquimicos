@@ -4,8 +4,9 @@
 
     <div class="jumbotron">
         <h1>Muchas gracias</h1>
-        <p class="lead">Recibimos su solicitud de acreditación y la procesaremos a la brevedad.</p>
-        <p class="lead">Entregar copia o envar por fax o email comprobante de transferencia realizada dentro de las 72hs. De lo contrario deberá realizar nuevamente su acreditación.</p>
+        <p class="lead">
+            Para hacer efectiva su inscripción deberá realizar el pago de la misma dentro de las 72 hs y enviar el comprobante al email de la Institución por la cual se acreditó y abonó su inscripción. Tener en cuenta que el monto a abonar (verificado por el comprobante de pago) debe corresponder al costo vigente al día efectivo de pago, el cual puede no ser el mismo al de la fecha en la que Ud. se acreditó on line. Observar las fechas donde se produce el cambio del costo de inscripción. Próxima fecha de cambio del costo: 30 de Junio de 2015.
+        </p>
         <hr />
         <p><a runat="server" href="~/" class="btn btn-primary btn-lg">Volver &raquo;</a></p>
         

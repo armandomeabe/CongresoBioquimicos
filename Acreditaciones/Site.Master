@@ -91,6 +91,7 @@ span.glyphicon {
                                 <li><a runat="server" href="~/Content/Instructivo carga de trabajos.pdf">Guía carga de Resúmenes</a></li>
                             </ul>
                         </li>
+                        <li><a runat="server" href="~/Alojamiento">Alojamiento</a></li>
                     </ul>
                 </div>
             </div>

@@ -164,6 +164,7 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Acreditar.aspx" />
+    <Content Include="Alojamiento.aspx" />
     <Content Include="Areas.aspx" />
     <Content Include="Certificado.aspx" />
     <Content Include="Contact.aspx" />
@@ -542,6 +543,13 @@
     </Compile>
     <Compile Include="Acreditar.aspx.designer.cs">
       <DependentUpon>Acreditar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alojamiento.aspx.cs">
+      <DependentUpon>Alojamiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alojamiento.aspx.designer.cs">
+      <DependentUpon>Alojamiento.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">

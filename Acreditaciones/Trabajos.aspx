@@ -247,7 +247,7 @@
                 </div>
                 <div class="modal-body">
                     <%= this.currentWork.Title %>
-                    <h3>Area: <%: this.currentWorkArea != null ? this.currentWorkArea.Nombre : "" %></h3>
+                    <h3>Area: <%: this.currentWorkArea != null ? this.currentWorkArea.Id.ToString() : "" %> - <%: this.currentWorkArea != null ? this.currentWorkArea.Nombre : "" %></h3>
                     <h4>Email de contacto: <%: this.currentAck.Email %></h4>
                     <% if (this.currentWork.Authors.Any())
                        { %>

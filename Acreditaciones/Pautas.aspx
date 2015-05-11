@@ -3,8 +3,8 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <br />
     <div class="jumbotron" runat="server">
-        <h1>Presentación de Trabajos</h1>
-        <h2>Pautas</h2>
+        <h2>Presentación de Trabajos</h2>
+        <h3>Pautas</h3>
         <div class="row well">
             <meta charset="utf-8" />
             <b id="docs-internal-guid-4a2c26a8-4562-6530-4961-0ea28ba9ccf5" style="font-weight:normal;">

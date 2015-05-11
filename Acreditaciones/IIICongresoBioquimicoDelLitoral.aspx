@@ -50,82 +50,426 @@
     </div>
 
     <div class="row well">
-        <table align="center" border="0" cellpadding="0" cellspacing="0" style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;" width="960">
-            <tr>
-                <td>
-                    <p class="texto1" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(85, 93, 96);">
-                        <span class="titulo0" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: rgb(74, 82, 156); font-weight: bold; font-variant: inherit;">III CONGRESO BIOQUÍMICO DEL LITORAL</span>
-                    </p>
-                    <p class="texto1" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(85, 93, 96);">
-                        <span class="titulo1" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: rgb(231, 27, 78); font-weight: bold;">Programa Preliminar<br />
-                            CURSOS PRE-CONGRESO</span>
-                    </p>
-                    <p class="texto1" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(85, 93, 96);">
-                        <span class="titulo2" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(231, 27, 78); font-weight: bold;">Tópicos de Virologí­a Clínica</span><br />
-                        Dra. Ana Laura Cavatorta Area Virología-IBR/CONICET Departamento Microbiología Facultad Cs. Bioquímicas y Farmacéuticas  Universidad Nacional de Rosario<br />
-                        Dr. Daniel Chouhy, Instituto de Biologí­a Celular y Molecular de Rosario (IBR-CONICET) (Rosario)<br />
-                        Dr. Jorge Rey. Departamento de Hemoterapia e Inmunohematologí­a, Hospital de Clínicas &quot;José de San Martín&quot; (Ciudad Autónoma de Buenos Aires)<br />
-                        Dr. Alfredo Martínez, Unidad de Virologí­a (UNVIR), CEMIC (Ciudad Autónoma de Buenos Aires).
-                    </p>
-                    <p class="texto1" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(85, 93, 96);">
-                        <span class="titulo2" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(231, 27, 78); font-weight: bold;">Marcadores Tumorales.</span><br />
-                        Dr. Sergio Nosetto. Laboratorio Bioanalitica (Ciudad Autónoma de Buenos Aires).<br />
-                        Dr. Maximiliano Zeballos, Laboratorio de Hematología, Oncologí­a y Genética, Hospital Privado de Córdoba
-                    </p>
-                    <p class="texto1" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(85, 93, 96);">
-                        <span class="titulo1" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: rgb(231, 27, 78); font-weight: bold;">Mesas Redondas</span><br />
-                        <span class="titulo2" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(231, 27, 78); font-weight: bold;">MR1: Reproducción Humana.</span><br />
-                        Dra. Rosa Molina. Laboratorio de Andrología y Reproducción (Córdoba)<br />
-                        Dra. María José Munuce. Departamento de Reproducción Humana y Biología de la Reproducción, Sanatorio Británico (Rosario)<br />
-                        Dra. Fernanda Raffo. Centro Medico Fertilab (Ciudad Autónoma de Buenos Aires).
-                    </p>
-                    <p class="texto1" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(85, 93, 96);">
-                        <span class="titulo2" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(231, 27, 78); font-weight: bold;">MR 2: Enfoques del Laboratorio de Hemostasia y Trombosis</span><br />
-                        Dra. Mirta Hepner, Laboratorio de Hemostasia y Trombosis, Servicio de Hematología y Oncología, Hospital de Pediatrí­a S.A.M.I.C. &quot;Prof. Dr. Juan P. Garrahan&quot;. (Ciudad Autónoma de Buenos Aires).<br />
-                        Dra. Adriana Sarto. Departamento de Hematología de la Reproducción, Halitus Instituto Médico, (Ciudad Autónoma de Buenos Aires).
-                    </p>
-                    <p class="texto1" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(85, 93, 96);">
-                        <span class="titulo2" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(231, 27, 78); font-weight: bold;">MR3: Autoinmunidad-Enfermedad Celiaca</span><br />
-                        Dra. Patricia Gentilli. Laboratorio de Inmunología, Instituto de Análisis &quot;Fares Taie&quot;, Mar del Plata.<br />
-                        Dra. María­ Esther Lasta. Laboratorio Central, Hospital Interzonal General Materno Infantil (Mar del Plata)<br />
-                        Dra. Marcela Demarchi, Servicio de Bioquímica, Hospital Córdoba (Córdoba)
-                    </p>
-                    <p class="texto1" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(85, 93, 96);">
-                        <span class="titulo2" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(231, 27, 78); font-weight: bold;">MR 4: Seguridad del Paciente</span><br />
-                        Dra. Silvia Quiroga. Departamento de Análisis Clínicos, CEMIC (Ciudad Autónoma de Buenos Aires).<br />
-                        Dra. María Torres, Departamento de Análisis Clínicos, CEMIC (Ciudad Autónoma de Buenos Aires).<br />
-                        Dr. Matías Milberg. Departamento de Medicina Interna, CEMIC (Ciudad Autónoma de Buenos Aires).
-                    </p>
-                    <p class="texto1" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(85, 93, 96);">
-                        <span class="titulo2" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(231, 27, 78); font-weight: bold;">MR5: Bioquímica Forense</span><br />
-                        Dr. Gustavo Martínez. Servicio de Genética Forense, Superior Tribunal de Justicia (Entre Ríos)<br />
-                        Dr. Daniel Corach. Servicio de Huellas Digitales Genétocas “ Facultad de Farmacia y Bioquímica&quot;&nbsp; UBA (Ciudad Autónoma de Buenos Aires).<br />
-                        Dr. Luis Ferrari. Laboratorio de Toxicolo­gía y Química Legal, Asesoría Pericial, SCJ Provincia de Buenos Aires (La Plata)
-                    </p>
-                    <p class="texto1" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(85, 93, 96);">
-                        <span class="titulo1" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: rgb(231, 27, 78); font-weight: bold;">Conferencias Semiplenarias</span><br />
-                        <span class="titulo2" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(231, 27, 78); font-weight: bold;"><strong>Conferencia 1:</strong><span class="Apple-converted-space">&nbsp;</span>Bioquí­mica 2.0. (Medicina de Laboratorio Basada en la<br />
-                            Evidencia).</span><br />
-                        Dr. Hernán Fares Taie, Instituto de Análisis &quot;Fares Taie&quot; Mar del Plata.
-                    </p>
-                    <p class="texto1" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(85, 93, 96);">
-                        <span class="titulo2" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(231, 27, 78); font-weight: bold;">Conferencia 2: Enfermedad Hemolítica Fetoneonatal.</span><br />
-                        Dr. Carlos Cotorruelo. Facultad de Ciencias Bioquí­micas y Farmacéuticas, Universidad Nacional de Rosario (Rosario)
-                    </p>
-                    <p class="texto1" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(85, 93, 96);">
-                        <span class="titulo2" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(231, 27, 78); font-weight: bold;">Conferencia 3: Consideraciones prácticas en la evaluación bioquí­mica de la función tiroidea.</span><br />
-                        Dr. Gustavo Macallini. Laboratorio de Pesquisa, Hospital Durand/Laboratorio Hidalgo (Ciudad Autónoma de Buenos Aires)
-                    </p>
-                    <p class="texto1" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(85, 93, 96);">
-                        <span class="titulo2" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(231, 27, 78); font-weight: bold;">Conferencia 4: Leucemia Mieloide Clínica: Estrategia de análisis en un modelo de terapias dirigidas.</span><br />
-                        Dra. Irene Larripa. Laboratorio de Genética Hematológica Instituto de Medicina Experimental (IMEX) “ CONICET “ Academia Nacional de Medicina (Ciudad Autónoma de Buenos Aires)
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-            </tr>
-        </table>
+        
+        <p class=MsoNormal style='margin-bottom:7.5pt;text-align:justify;text-justify:
+inter-ideograph;line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Arial";
+color:#4A529C'>III CONGRESO BIOQUÍMICO DEL LITORAL</span></b><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Arial";color:#555D60'><o:p></o:p></span></p>
+
+<p class=Predeterminado style='margin:0cm;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Arial";color:#E71B4E'>Programa científico</span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif"'><o:p></o:p></span></b></p>
+
+<p class=Predeterminado style='margin:0cm;margin-bottom:.0001pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";color:red'>CONFERENCIAS
+SEMIPLENARIAS<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:black;mso-themecolor:text1'>“Bioquímica
+2.0. Perfeccionar el uso e interpretación de la información bioquímica”<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span class=SpellE><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>Hernan</span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'> Fares <span
+class=SpellE>Taie</span>, Instituto de Análisis “Fares <span class=SpellE>Taie</span>”,
+Mar del Plata.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>“Enfermedad Hemolítica
+<span class=SpellE>Fetoneonatal</span>: diagnóstico prenatal no invasivo”<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Carlos <span class=SpellE>Cotorruelo</span>, Facultad de
+Ciencias Bioquímicas y Farmacéuticas, Universidad Nacional de Rosario. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";color:black;mso-themecolor:text1'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:black;mso-themecolor:text1'>“Leucemia
+Mieloide Crónica en la era de los Inhibidores de Tirosina Quinasas: Un modelo
+de terapias dirigidas. Estrategias de análisis”<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Irene <span class=SpellE>Larripa</span>,</span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif"'>
+</span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>Laboratorio de
+Genética Hematológica</span><span style='font-size:12.0pt;line-height:115%;
+font-family:"Arial","serif"'> </span><span style='font-size:12.0pt;
+line-height:115%;font-family:"Arial","serif";mso-fareast-font-family:
+"Arial";color:#00000A'>Instituto de Medicina Experimental (IMEX) –
+CONICET – Academia Nacional de Medicina (<span style='mso-bidi-font-weight:
+bold'>Ciudad Autónoma de Buenos Aires)<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";color:black;mso-themecolor:text1'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:black;mso-themecolor:text1'>“Consideraciones
+prácticas en la evaluación<span style='mso-spacerun:yes'>  </span>bioquímica de
+la función tiroidea”</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Gustavo <span class=SpellE>Macallini</span>, Laboratorio de
+Pesquisa, Hospital Durand/Laboratorio Hidalgo (<span style='mso-bidi-font-weight:
+bold'>Ciudad Autónoma de Buenos Aires). </span></span><span style='font-size:
+12.0pt;line-height:115%;font-family:"Arial","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";color:red'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";color:red'>MESAS REDONDAS<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:red'>Reproducción Humana<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Coordinador: </span></b><span style='font-size:12.0pt;
+line-height:115%;font-family:"Arial","serif";mso-fareast-font-family:
+"Arial";color:#00000A'>Carolina VEAUTE</span><b style='mso-bidi-font-weight:
+normal'><span style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:red'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>“Importancia del Laboratorio
+de Andrología en el diagnóstico del Factor masculino”, </span></b><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>Rosa Molina,
+Laboratorio de Andrología y Reproducción (Córdoba).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>“El estudio de la
+fragmentación del ADN espermático como herramienta diagnóstica”, </span></b><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>María José <span
+class=SpellE>Munuce</span>, Departamento de Reproducción Humana y Biología de
+la Reproducción, Sanatorio Británico (Rosario).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>“Nuevos avances en
+Diagnóstico Genético <span class=SpellE>Preimplantatorio</span>”<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Vanesa <span class=SpellE>Rawe</span>, CEGYR, Centro de Medicina
+y Genética Reproductiva (Ciudad Autónoma de Buenos Aires).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:red'>Enfoques del Laboratorio
+de Hemostasia y Trombosis<o:p></o:p></span></b></p>
+
+<p class=Predeterminado style='margin:0cm;margin-bottom:.0001pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Coordinador:</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;line-height:115%;font-family:
+"Arial","serif";mso-fareast-font-family:"Arial";color:#00000A'>
+</span></b><span style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>Alejandra CARDOZO<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+color:red'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b><span style='font-size:12.0pt;
+line-height:115%;font-family:"Arial","serif";mso-fareast-font-family:
+"Arial";color:#00000A'>“Trombofilias y Embarazo</span></b><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A;mso-bidi-font-weight:
+bold'>”<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Adriana Sarto, Departamento de Hematología de la Reproducción, <span
+class=SpellE>Halitus</span> Instituto Médico <span style='mso-bidi-font-weight:
+bold'>(Ciudad Autónoma de Buenos Aires). <o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b><span style='font-size:12.0pt;
+line-height:115%;font-family:"Arial","serif";mso-fareast-font-family:
+"Arial";color:#00000A'>“Terapia <span class=SpellE>antitrombótica</span>
+en Pediatría y Neonatología”<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Carolina <span class=SpellE>Cervio</span>, Servicio de
+Hematología y Oncología,<span style='mso-spacerun:yes'>  </span>Hospital de
+Pediatría S.A.M.I.C. &quot;Prof. Dr. Juan P. <span class=SpellE>Garrahan</span>&quot;
+<span style='mso-bidi-font-weight:bold'>(Ciudad Autónoma de Buenos Aires). <o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b><span style='font-size:12.0pt;
+line-height:115%;font-family:"Arial","serif";mso-fareast-font-family:
+"Arial";color:#00000A'>“Monitoreo de la terapia <span class=SpellE>antitrombótica</span>
+en Pediatría y Neonatología”<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Mirta <span class=SpellE>Hepner</span>, Laboratorio de
+Hemostasia y Trombosis, Servicio de Hematología y Oncología,<span
+style='mso-spacerun:yes'>  </span>Hospital de Pediatría S.A.M.I.C. &quot;Prof.
+Dr. Juan P. <span class=SpellE>Garrahan</span>&quot; <span style='mso-bidi-font-weight:
+bold'>(Ciudad Autónoma de Buenos Aires). </span></span><span style='font-size:
+12.0pt;line-height:115%;font-family:"Arial","serif"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:red'>Enfermedad Celiaca<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Coordinador: </span></b><span style='font-size:12.0pt;
+line-height:115%;font-family:"Arial","serif";mso-fareast-font-family:
+"Arial";color:#00000A'>Carolina VEAUTE</span><b style='mso-bidi-font-weight:
+normal'><span style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+color:red'><o:p></o:p></span></b></p>
+
+<p class=Predeterminado style='margin:0cm;margin-bottom:.0001pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>“Enfoque diagnóstico de la malabsorción en la enfermedad
+celiaca” <o:p></o:p></span></b></p>
+
+<p class=Predeterminado style='margin:0cm;margin-bottom:.0001pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>Mabel <span
+class=SpellE>D´Arrigo</span>, Facultad de Ciencias Bioquímicas y <span
+class=SpellE>Farmaceuticas</span>. Universidad Nacional de Rosario</span></p>
+
+<p class=Predeterminado style='margin:0cm;margin-bottom:.0001pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>“Actualización en el Diagnóstico de Laboratorio en Enfermedad
+Celiaca”<o:p></o:p></span></b></p>
+
+<p class=Predeterminado style='margin:0cm;margin-bottom:.0001pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>Patricia <span
+class=SpellE>Gentilli</span>, Laboratorio de <span class=SpellE>Inmunologia</span>,
+Instituto de Análisis “Fares <span class=SpellE>Taie</span>”, (Mar del Plata).</span><span
+style='font-size:12.0pt;line-height:115%'> </span></p>
+
+<p class=Predeterminado style='margin:0cm;margin-bottom:.0001pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>“<b style='mso-bidi-font-weight:
+normal'>Clínica y patologías asociadas a la enfermedad celíaca en niños y
+adultos”<o:p></o:p></b></span></p>
+
+<p class=Predeterminado style='margin:0cm;margin-bottom:.0001pt'><span
+class=SpellE><span style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>Maria</span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'> Esther Lasta, Laboratorio
+Central,<span style='mso-spacerun:yes'>  </span>Hospital<span
+style='mso-spacerun:yes'>  </span><span class=SpellE>Interzonal</span> General
+Materno Infantil (Mar del Plata). </span></p>
+
+<p class=Predeterminado style='margin-bottom:0cm;margin-bottom:.0001pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt;line-height:115%;font-family:"Arial","serif";mso-fareast-font-family:
+"Arial";color:#00000A'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:red'>Seguridad del Paciente<o:p></o:p></span></b></p>
+
+<p class=Predeterminado style='margin:0cm;margin-bottom:.0001pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Coordinador: </span></b><span style='font-size:12.0pt;
+line-height:115%;font-family:"Arial","serif";mso-fareast-font-family:
+"Arial";color:#00000A'>Andrés ALBRECHT<b style='mso-bidi-font-weight:
+normal'><o:p></o:p></b></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";color:red'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif"'>“</span></b><b><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>Cuidado de la
+seguridad del paciente en las etapas pre y post analíticas”<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Silvia Quiroga, Departamento de Análisis Clínicos, <span
+style='mso-bidi-font-weight:bold'>CEMIC (Ciudad <span class=SpellE>Autonoma</span>
+de Buenos Aires).</span></span><span style='font-size:12.0pt;line-height:115%;
+font-family:"Arial","serif"'> <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif"'>“</span></b><b><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>Seguridad del paciente
+y calidad de la etapa analítica”<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Marta Torres, Departamento de Análisis Clínicos, <span
+style='mso-bidi-font-weight:bold'>CEMIC (Ciudad Autónoma de Buenos Aires).</span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif"'>
+<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b><span style='font-size:12.0pt;
+line-height:115%;font-family:"Arial","serif";mso-fareast-font-family:
+"Arial";color:#00000A'>“Seguridad del paciente: impacto de la
+respuesta del laboratorio en el resultado médico”<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Matías <span class=SpellE>Milberg</span>, <span
+style='mso-spacerun:yes'> </span>Departamento de Medicina Interna,<span
+style='mso-bidi-font-weight:bold'> CEMIC (Ciudad Autónoma de Buenos Aires). </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif"'><o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:72.0pt;margin-bottom:.0001pt'><span style='font-size:12.0pt;
+line-height:115%;font-family:"Arial","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:red'>Bioquímica Forense<o:p></o:p></span></b></p>
+
+<p class=Predeterminado style='margin:0cm;margin-bottom:.0001pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Coordinador: </span></b><span style='font-size:12.0pt;
+line-height:115%;font-family:"Arial","serif";mso-fareast-font-family:
+"Arial";color:#00000A'>Guillermo RAMOS<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+color:red'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>“Estado de
+implementación de Registros de Datos Genéticos en Argentina”<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Gustavo Martínez, Servicio de Genética Forense</span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif"'>,
+</span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif";
+mso-fareast-font-family:"Arial";color:#00000A'>Superior Tribunal de
+Justicia (Entre Ríos). <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b><span style='font-size:12.0pt;
+line-height:115%;font-family:"Arial","serif";mso-fareast-font-family:
+"Arial";color:#00000A'>“Genética Forense en Argentina: logros,
+avances y el permanente impulso de la innovación”<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A'>Daniel Corach, Servicio de Huellas Digitales Genéticas –
+Facultad de Farmacia y Bioquímica – Universidad de Buenos Aires (<span
+style='mso-bidi-font-weight:bold'>Ciudad Autónoma de Buenos Aires).<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><b><span style='font-size:12.0pt;
+line-height:115%;font-family:"Arial","serif";mso-fareast-font-family:
+"Arial";color:#00000A'>“Nuevas Drogas Psicoactivas (NPS) y marcadores
+de consumo de alcohol: Presente y Futuro en Toxicología Forense”<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph'><span style='font-size:12.0pt;line-height:
+115%;font-family:"Arial","serif";mso-fareast-font-family:"Arial";
+color:#00000A;mso-bidi-font-weight:bold'>Luis Ferrari, Laboratorio de
+Toxicología y Química Legal, Asesoría Pericial, SCJ Provincia de Buenos Aires
+(La Plata). <o:p></o:p></span></p>
+
+<p class=Predeterminado style='margin:0cm;margin-bottom:.0001pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial","serif"'><o:p>&nbsp;</o:p></span></p>
+
+
+
         <br />
         <hr />
         <div class="pull-right">
