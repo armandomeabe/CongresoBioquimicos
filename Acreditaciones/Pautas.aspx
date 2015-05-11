@@ -31,7 +31,7 @@
             <ol start="4" style="margin-top:0pt;margin-bottom:0pt;">
                 <li dir="ltr" style="list-style-type:decimal;font-size:16px;font-family:'Times New Roman';color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;margin-left: -24px;">
                     <p dir="ltr" style="line-height:1.3800000000000001;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
-                        <span style="font-size:16px;font-family:'Times New Roman';color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Cada inscripción permite la presentación de un (1) trabajo científico.</span></p>
+                        <span style="font-size:16px;font-family:'Times New Roman';color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Cada inscripción permite la presentación de hasta dos (2) trabajos científicos.</span></p>
                 </li>
             </ol>
             <ol start="5" style="margin-top:0pt;margin-bottom:0pt;">
@@ -43,7 +43,7 @@
             <ol start="6" style="margin-top:0pt;margin-bottom:0pt;">
                 <li dir="ltr" style="list-style-type:decimal;font-size:16px;font-family:'Times New Roman';color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;margin-left: -24px;">
                     <p dir="ltr" style="line-height:1.3800000000000001;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
-                        <span style="font-size:16px;font-family:'Times New Roman';color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Una misma persona puede ingresar al sistema varios trabajos científicos, utilizando los DNI de otras personas inscriptas (un resumen por cada inscripto).</span></p>
+                        <span style="font-size:16px;font-family:'Times New Roman';color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Una misma persona puede ingresar al sistema varios trabajos científicos, utilizando los DNI de otras personas inscriptas (hasta dos resúmenes por cada inscripto).</span></p>
                 </li>
             </ol>
             <ol start="7" style="margin-top:0pt;margin-bottom:0pt;">

@@ -48,7 +48,10 @@
 
     </div>
     <div class="row well">
-        <h2>Se encuentra habilitada la carga <i>on line</i> de resúmenes (ir a Presentación de trabajos / envío de resúmenes). <strong>Fecha límite: 17 de Mayo de 2015.</strong></h2>
+        <h2>Se encuentra habilitada la carga <i>on line</i> de resúmenes (ir a Presentación de trabajos / envío de resúmenes). <strong style="color: red;">Fecha límite: 17 de Mayo.</strong>
+            <br/>
+            <strong style="color: green">Próximamente se habilitará el sistema para cargar un segundo trabajo por inscripto.</strong>
+        </h2>
     </div>
     <div class="row well">
         <h2><a target="_blank" href="/Content/Declaracion Gobierno Provincial.pdf">Declaración de Interés Provincial</a></h2>
