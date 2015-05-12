@@ -57,7 +57,7 @@
                         <li role="presentation">@*@Html.ActionLink("Editar", "Edit", new { id = item.Id })*@</li>
                         <li role="presentation">@Html.ActionLink("Ver trabajo", "Details", new { id = item.Id })</li>
                         <li role="presentation">@Html.ActionLink("Exportar Trabajo", "Export", new { id = item.Id }, new { target = "_blank" })</li>
-                        <li role="presentation">@Html.ActionLink("Eliminar", "Delete", new { id = item.Id })</li>
+                        @*<li role="presentation">@Html.ActionLink("Eliminar", "Delete", new { id = item.Id })</li>*@
                         <li role="presentation" class="dropdown-header">Evaluación</li>
                         <li role="presentation">@Html.ActionLink("Asignar a supervisor", "AssignWorkToSupervisor", new { id = item.Id })</li>
                     </ul>

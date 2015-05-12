@@ -247,6 +247,8 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Properties\PublishProfiles\AcreditacionesBackend - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\AcreditacionesBackend - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\AcreditacionesBackend.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\datepicker\css\bootstrap-datepicker.css" />
