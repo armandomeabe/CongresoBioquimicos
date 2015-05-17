@@ -41,7 +41,10 @@
                 }
             </td>
             <td>
-                @db.WorkStatus.Find(item.EstadoID).Nombre
+                @if (item.EstadoID < 6)
+                {
+                    <span>@db.WorkStatus.Find(item.EstadoID).Nombre</span>
+                }
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Puntaje)

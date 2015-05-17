@@ -239,7 +239,7 @@
         <hr />
         <div class="row etapa_2">
             <p style="font-size: 14px;">A partir del 1 de mayo de 2015 y hasta el 30 de junio de 2015, si pertenece al Colegio de Bioquímicos de Santa Fe de 1ra Circunscripción o al Colegio de Bioquímicos de Entre Ríos, la inscripción podrá realizarse hasta en 2 cuotas, debiendo estar saldado al 30 de junio.</p>
-            <asp:Button runat="server" ID="Button1" CommandArgument="(Colegio de Bioq. 1ra circns. ó Colegio de bioq E.Ríos o Docente UNL) 3 cuotas de $ 300" OnClick="Validar" CssClass="btn btn-primary" Text="2 cuotas" />
+            <asp:Button runat="server" ID="Button1" CommandArgument="(Colegio de Bioq. 1ra circns. ó Colegio de bioq E.Ríos o Docente UNL) 2 cuotas" OnClick="Validar" CssClass="btn btn-primary" Text="2 cuotas" />
         </div>
 
         <hr />

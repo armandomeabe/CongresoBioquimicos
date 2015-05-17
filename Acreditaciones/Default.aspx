@@ -49,8 +49,10 @@
     </div>
     <div class="row well">
         <h2>Se encuentra habilitada la carga <i>on line</i> de resúmenes (ir a Presentación de trabajos / envío de resúmenes). <strong style="color: red;">Fecha límite: 17 de Mayo.</strong>
-            <br/>
-            <strong style="color: green">Próximamente se habilitará el sistema para cargar un segundo trabajo por inscripto.</strong>
+            <br />
+            <strong style="color: green;">Se encuentra habilitado el sistema para cargar un segundo trabajo por inscripto.</strong>
+            <br />
+            <strong style="color: green;">Se prorrogó hasta el 31 de mayo la fecha límite para el envío de resúmenes.</strong>
         </h2>
     </div>
     <div class="row well">

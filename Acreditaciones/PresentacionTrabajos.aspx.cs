@@ -34,7 +34,7 @@ namespace Acreditaciones
                     return;
                 }
 
-                Response.Redirect("~/Trabajos.aspx?internal=" + Utils.Base64String.Base64Encode(ack.DNI));
+                Response.Redirect("~/PreTrabajos.aspx?internal=" + Utils.Base64String.Base64Encode(ack.DNI));
             }
         }
     }

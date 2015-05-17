@@ -43,20 +43,25 @@ namespace Acreditaciones
         protected void Page_Load(object sender, EventArgs e)
         {
             var ackDNI = Utils.Base64String.Base64Decode(Request.QueryString["internal"]);
+            var workid = Utils.Base64String.Base64Decode(Request.QueryString["work"]);
             db = new Entities();
+            
             var ack = db.Accreditations.FirstOrDefault(x => x.DNI.Trim().Equals(ackDNI.Trim()));
             this.currentAck = ack;
-            var work = db.Works.FirstOrDefault(x => x.AckID.Equals(ack.id));
 
-            //work.Authors = db.Authors.Where(x => x.IdWork.Equals(work.Id)).ToList();
-            //foreach (var author in work.Authors)
-            //{
-            //    author.Establishment = db.Establishments.Find(author.IdEstablishment);
-            //}
+            Work work;
+            if (workid == "nuevo")
+            {
+                work = null;
+            }
+            else
+            {
+                int workidnumber = int.Parse(workid);
+                work = db.Works.Find(workidnumber);
+                currentWork = work;
+            }
 
-
-
-
+            if (IsPostBack) return;
             if (work == null)
             {
                 work = new Work
@@ -70,6 +75,8 @@ namespace Acreditaciones
                 };
                 db.Works.Add(work);
                 db.SaveChanges();
+
+                Response.Redirect("~/Trabajos.aspx?internal=" + Utils.Base64String.Base64Encode(currentAck.DNI) + "&work=" + Utils.Base64String.Base64Encode(work.Id.ToString()));
             }
 
             this.currentWork = work;
@@ -112,7 +119,7 @@ namespace Acreditaciones
 
             var ack = db.Accreditations.FirstOrDefault(x => x.DNI.Trim().Equals(ackDNI.Trim()));
 
-            currentWork = db.Works.FirstOrDefault(x => x.AckID.Equals(ack.id));
+            currentWork = db.Works.Find(currentWork.Id);
 
             currentWork.Title = hiddenTitulo.Value ?? "";
             currentWork.Body = hiddenTrabajo.Value ?? "";
@@ -132,7 +139,7 @@ namespace Acreditaciones
             db = new Entities();
 
             var ack = db.Accreditations.FirstOrDefault(x => x.DNI.Trim().Equals(ackDNI.Trim()));
-            currentWork = db.Works.FirstOrDefault(x => x.AckID.Equals(ack.id));
+            currentWork = db.Works.Find(currentWork.Id);
 
             if (!currentWork.Authors.Any())
             {
