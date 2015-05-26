@@ -60,7 +60,10 @@
                         <li role="presentation">@*@Html.ActionLink("Editar", "Edit", new { id = item.Id })*@</li>
                         <li role="presentation">@Html.ActionLink("Ver trabajo", "Details", new { id = item.Id })</li>
                         <li role="presentation">@Html.ActionLink("Exportar Trabajo", "Export", new { id = item.Id }, new { target = "_blank" })</li>
-                        @*<li role="presentation">@Html.ActionLink("Eliminar", "Delete", new { id = item.Id })</li>*@
+                        <li role="presentation">@Html.ActionLink("Eliminar", "Delete", new { id = item.Id })</li>
+                        @*Response.Redirect("~/Trabajos.aspx?internal=" + Utils.Base64String.Base64Encode(currentAck.DNI) + "&work=" + Utils.Base64String.Base64Encode(workid));*@
+                        <li role="presentation"><a href="http://acreditaciones.azurewebsites.net/Trabajos.aspx?internal=@AcreditacionesBackend.Utils.Base64String.Base64Encode(item.Accreditation.DNI)&work=@AcreditacionesBackend.Utils.Base64String.Base64Encode(item.Id.ToString())&poweruser=true" target="_blank">Editar como administrador</a></li>
+                        
                         <li role="presentation" class="dropdown-header">Evaluación</li>
                         <li role="presentation">@Html.ActionLink("Asignar a supervisor", "AssignWorkToSupervisor", new { id = item.Id })</li>
                     </ul>

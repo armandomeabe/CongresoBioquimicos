@@ -168,6 +168,10 @@
     <Content Include="Areas.aspx" />
     <Content Include="Certificado.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="Content\DisertantesIIICBL\alfredomartinez.jpg" />
+    <Content Include="Content\DisertantesIIICBL\diegomendicino.jpg" />
+    <Content Include="Content\DisertantesIIICBL\gabrielarompatto.jpg" />
+    <Content Include="Content\DisertantesIIICBL\gracielaachkar.jpg" />
     <Content Include="Content\DisertantesIIICBL\image001.png" />
     <Content Include="Content\DisertantesIIICBL\image002.png" />
     <Content Include="Content\DisertantesIIICBL\image003.png" />
@@ -207,6 +211,10 @@
     <Content Include="Content\DisertantesIIICBL\image040.jpg" />
     <Content Include="Content\DisertantesIIICBL\image041.jpg" />
     <Content Include="Content\DisertantesIIICBL\image042.jpg" />
+    <Content Include="Content\DisertantesIIICBL\marcelonepote.jpg" />
+    <Content Include="Content\DisertantesIIICBL\sergionosetto.jpg" />
+    <Content Include="Content\DisertantesIIICBL\silvinapasseggi.jpg" />
+    <Content Include="Content\DisertantesIIICBL\vivianamugna.jpg" />
     <Content Include="Content\Imagenes\32434.jpg" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -289,6 +297,7 @@
     </Content>
     <Content Include="Content\Instructivo carga de trabajos.pdf" />
     <Content Include="Content\Declaracion Gobierno Provincial.pdf" />
+    <Content Include="Content\Guía carga de resúmenes.pdf" />
     <None Include="Properties\PublishProfiles\Acreditaciones - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\Acreditaciones - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -795,11 +804,11 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>False</UseIIS>
+          <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>51031</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:51031/</IISUrl>
+          <IISUrl>http://localhost:51000/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

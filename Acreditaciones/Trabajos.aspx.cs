@@ -44,8 +44,10 @@ namespace Acreditaciones
         {
             var ackDNI = Utils.Base64String.Base64Decode(Request.QueryString["internal"]);
             var workid = Utils.Base64String.Base64Decode(Request.QueryString["work"]);
+            var isadmin = Request.QueryString["poweruser"] == "true";
+
             db = new Entities();
-            
+
             var ack = db.Accreditations.FirstOrDefault(x => x.DNI.Trim().Equals(ackDNI.Trim()));
             this.currentAck = ack;
 
@@ -99,12 +101,21 @@ namespace Acreditaciones
             tituloErrores.Visible = false;
             Mensaje.Visible = false;
 
-            if (work.EstadoID != 1)
+            if (work.EstadoID != 1 && !isadmin)
             {
                 Mensaje.Visible = true;
                 Editor.Visible = false;
                 var estado = db.WorkStatus.Find(work.EstadoID);
                 ViewState["Estado"] = estado.Nombre;
+            }
+
+            if (isadmin)
+            {
+                var msg =
+                    "Precaución: Todos los cambios que usted realice en este trabajo figurarán en el sistema bajo el nombre de su respectivo autor. Se sugiere discreción ya que se está declarando en nombre del sr./sra: " +
+                    currentAck.Apellido + ", " + currentAck.Nombre;
+                ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + msg + "');", true);
+                btnFinalizarPropuesta.Visible = false;
             }
 
             //if (!ackDNI.ToLower().Contains("tester"))

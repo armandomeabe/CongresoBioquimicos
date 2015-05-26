@@ -223,7 +223,7 @@
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
                 Previsualizar trabajo
             </button>
-            <asp:Button runat="server" CssClass="btn btn-warning pull-right" Text="Finalizar Propuesta" OnClick="FinalizarPropuesta" />
+            <asp:Button ID="btnFinalizarPropuesta" runat="server" CssClass="btn btn-warning pull-right" Text="Finalizar Propuesta" OnClick="FinalizarPropuesta" />
         </div>
     </div>
 

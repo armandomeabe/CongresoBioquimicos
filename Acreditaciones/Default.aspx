@@ -48,7 +48,7 @@
 
     </div>
     <div class="row well">
-        <h2>Se encuentra habilitada la carga <i>on line</i> de resúmenes (ir a Presentación de trabajos / envío de resúmenes). <strong style="color: red;">Fecha límite: 17 de Mayo.</strong>
+        <h2>Se encuentra habilitada la carga <i>on line</i> de resúmenes (ir a Presentación de trabajos / envío de resúmenes).
             <br />
             <strong style="color: green;">Se encuentra habilitado el sistema para cargar un segundo trabajo por inscripto.</strong>
             <br />

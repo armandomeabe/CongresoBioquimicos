@@ -133,7 +133,7 @@
                 <ol start="18" style="margin-top: 0pt; margin-bottom: 0pt;">
                     <li dir="ltr" style="list-style-type: decimal; font-size: 16px; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; margin-left: -24px;">
                         <p dir="ltr" style="line-height: 1.3800000000000001; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;">
-                            <span style="font-size: 16px; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">El autor de contacto recibirá un correo electrónico con la confirmación de la recepción de su resumen. Posteriormente el Comité Científico le enviará la notificación de su aprobación, modalidad (poster u oral), día y hora de su presentación.</span>
+                            <span style="font-size: 16px; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Luego de la evaluación de sus resúmenes, el Comité Científico le enviará la notificación de su aprobación, modalidad (poster u oral), día y hora de su presentación.</span>
                         </p>
                     </li>
                 </ol>

@@ -204,6 +204,13 @@ namespace AcreditacionesBackend.Controllers
         public async Task<ActionResult> DeleteConfirmed(int id)
         {
             Work work = await db.Works.FindAsync(id);
+
+            var establishments = work.Establishments.ToList();
+            var authors = work.Authors.ToList();
+
+            db.Establishments.RemoveRange(establishments);
+            db.Authors.RemoveRange(authors);
+
             db.Works.Remove(work);
             await db.SaveChangesAsync();
             return RedirectToAction("Index");

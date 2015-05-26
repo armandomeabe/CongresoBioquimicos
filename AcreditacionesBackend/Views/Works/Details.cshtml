@@ -5,23 +5,16 @@
     ViewBag.Title = "Ver trabajo";
     var db = new Entities();
     var ack = db.Accreditations.Find(Model.AckID);
-    var status = db.WorkStatus.Find(Model.EstadoID);
+    var status = db.WorkStatus.Find(Model.EstadoID) ?? new WorkStatu() { Nombre = "" };
+
 }
 
 <h2>Ver trabajo</h2>
 
 <div>
-    <h4>@Model.Title</h4>
+    @Html.Raw(Model.Title)
     <hr />
     <dl class="dl-horizontal">
-        <dt>
-            Título
-        </dt>
-
-        <dd>
-            <strong>@Html.DisplayFor(model => model.Title)</strong>
-        </dd>
-        <br />
         <div class="row well">
             <dt>
                 Cuerpo
@@ -47,7 +40,10 @@
         </dt>
 
         <dd>
-            @(db.WorkAreas.Find(Model.AreaID).Nombre)
+            @if (Model.AreaID > 0)
+            {
+                <span>@(db.WorkAreas.Find(Model.AreaID).Nombre)</span>
+            }
         </dd>
 
         <dt>
