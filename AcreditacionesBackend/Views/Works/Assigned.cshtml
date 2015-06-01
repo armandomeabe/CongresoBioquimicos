@@ -10,7 +10,7 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Title)
+            Título
         </th>
         <th>
             Area
@@ -28,7 +28,7 @@
     {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Title)
+                @Html.Raw(AcreditacionesBackend.Utils.HtmlRemoval.StripTagsRegex(item.Title))
             </td>
             <td>
                 @db.WorkAreas.Find(item.AreaID).Nombre

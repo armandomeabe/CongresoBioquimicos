@@ -15,7 +15,7 @@
     @Html.AntiForgeryToken()
     @Html.HiddenFor(model => model.Id)
     <div>
-        <h1><strong><i>'@Model.Title'</i></strong></h1>
+        <h1><strong><i>'@AcreditacionesBackend.Utils.HtmlRemoval.StripTagsRegex(Model.Title)'</i></strong></h1>
         <hr />
         <dl class="dl-horizontal">
             <dt>
@@ -23,7 +23,7 @@
             </dt>
 
             <dd>
-                <strong>@Html.DisplayFor(model => model.Title)</strong>
+                <strong>@AcreditacionesBackend.Utils.HtmlRemoval.StripTagsRegex(Model.Title)</strong>
             </dd>
             <br />
             <div class="row well">

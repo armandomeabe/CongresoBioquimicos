@@ -4,6 +4,19 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
+    <div class="jumbotron" runat="server" id="divComentariosDelEvaluador">
+        <div class="col-md-12">
+            <h2>Comentarios del evaluador</h2>
+            <h3>El evaluador que supervisó su trabajo decidió solicitarle a usted que realice modificaciones antes de aprobarlo. Por favor considere a continuación los comentarios dejados por el evaluador al momento de supervisar su trabajo.</h3>
+        </div>
+        <div class="container">
+            <div class="bg-danger" runat="server" id="div2">
+                <h2 runat="server" id="H1">Sin comentarios por parte del evaluador.</h2>
+            </div>
+        </div>
+    </div>
+
+
     <asp:HiddenField runat="server" ID="hiddenTitulo" />
     <asp:HiddenField runat="server" ID="hiddenTrabajo" />
     <asp:HiddenField runat="server" ID="hiddenEstablishment" Value="test" />
@@ -231,7 +244,9 @@
         <div class="jumbotron" runat="server">
             <div class="container">
                 <div class="bg-danger" runat="server" id="div1">
-                    <h2 runat="server" id="MensajeTitulo">Su trabajo se encuentra en estado <%: ViewState["Estado"] %>, no puede editarlo en este momento.</h2>
+                    <h2 runat="server" id="MensajeTitulo">Su trabajo se encuentra en estado '<i><%: ViewState["Estado"] %></i>'.
+                        <br />
+                        En este momento no puede editarlo.</h2>
                 </div>
             </div>
         </div>
@@ -255,7 +270,7 @@
                     <p>
                         <ul class="list-group">
                             <li class="list-group-item">
-                                <%= String.Join(", ", currentWork.Authors.Select(x => string.Format("{0}<sup>{1}</sup>",x.Nombre,x.Establishment.Number))) %>.
+                                <%= String.Join(", ", currentWork.Authors.OrderBy(x => x.OrderPosition).Select(x => string.Format("{0}<sup>{1}</sup>",x.Nombre,x.Establishment.Number))) %>.
                             </li>
                         </ul>
                     </p>

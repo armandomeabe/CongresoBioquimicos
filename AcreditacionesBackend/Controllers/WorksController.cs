@@ -43,17 +43,17 @@ namespace AcreditacionesBackend.Controllers
         public async Task<ActionResult> Review(int id)
         {
             var work = await db.Works.FindAsync(id);
-            ViewBag.EstadoId = new SelectList(db.WorkStatus, "id", "Nombre", work.EstadoID);
+            ViewBag.EstadoId = new SelectList(db.WorkStatus.Where(x => x.id.Equals(3) || x.id.Equals(4) || x.id.Equals(5)), "id", "Nombre", work.EstadoID);
             return View(work);
         }
 
         [Authorize]
         [HttpPost, ValidateInput(false)]
-        public async Task<ActionResult> Review(int Id, int Puntaje, int EstadoId, string ComentariosDelEvaluador)
+        public async Task<ActionResult> Review(int Id, int? Puntaje, int EstadoId, string ComentariosDelEvaluador)
         {
             var work = await db.Works.FindAsync(Id);
             work.EstadoID = EstadoId;
-            work.Puntaje = Puntaje;
+            work.Puntaje = Puntaje.GetValueOrDefault(0);
             work.ComentariosDelEvaluador = ComentariosDelEvaluador;
             db.Entry(work).State = EntityState.Modified;
             await db.SaveChangesAsync();
@@ -92,14 +92,16 @@ namespace AcreditacionesBackend.Controllers
             return View(work);
         }
 
-        [Authorize(Roles = "admin")]
-        [HttpPost, ValidateInput(false)]
+        [Authorize(Roles = "admin"), HttpPost, ValidateInput(false)]
         public async Task<ActionResult> AssignWorkToSupervisor(int Id, string SupervisorUserId, string NotasAdicionales)
         {
             var work = await db.Works.FindAsync(Id);
+            
             work.Supervisado = false;
             work.SupervisorUserId = SupervisorUserId;
             work.NotasAdicionales = NotasAdicionales;
+            work.EstadoID = 7;
+
             db.Entry(work).State = EntityState.Modified;
             await db.SaveChangesAsync();
 
@@ -109,7 +111,7 @@ namespace AcreditacionesBackend.Controllers
         [Authorize(Roles = "admin")]
         public async Task<ActionResult> Index()
         {
-            return View(await db.Works.ToListAsync());
+            return View(await db.Works.Where(x => x.EstadoID != 1).ToListAsync());
         }
 
         [Authorize(Roles = "admin")]

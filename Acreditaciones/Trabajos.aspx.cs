@@ -96,17 +96,25 @@ namespace Acreditaciones
 
             this.UpdateFields(work);
 
-
-
             tituloErrores.Visible = false;
             Mensaje.Visible = false;
 
-            if (work.EstadoID != 1 && !isadmin)
+            divComentariosDelEvaluador.Visible = false;
+
+            if ((work.EstadoID != 1 && work.EstadoID != 5 && !isadmin) || (work.EstadoID > 1 && !work.Supervisado.GetValueOrDefault(false)))
             {
                 Mensaje.Visible = true;
                 Editor.Visible = false;
                 var estado = db.WorkStatus.Find(work.EstadoID);
                 ViewState["Estado"] = estado.Nombre;
+            }
+            else
+            {
+                if (!string.IsNullOrWhiteSpace(work.ComentariosDelEvaluador))
+                {
+                    H1.InnerText = Utils.HtmlRemoval.StripTagsRegex(work.ComentariosDelEvaluador);
+                    divComentariosDelEvaluador.Visible = true;
+                }
             }
 
             if (isadmin)

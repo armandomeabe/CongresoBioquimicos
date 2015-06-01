@@ -6,75 +6,65 @@
     var db = new Entities();
 }
 
-<h2>Trabajos</h2>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Title)
-        </th>
-        <th>
-            Area
-        </th>
-        <th>
-            Estado
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Puntaje)
-        </th>
-        <th></th>
-    </tr>
+<h2>Areas de Trabajos</h2>
 
-    @foreach (var item in Model)
-    {
+@foreach (var area in db.WorkAreas.ToList())
+{
+    <h2>@area.Nombre</h2>
+    <table class="table">
         <tr>
-            <td>
-                @Html.Raw(item.Title)
-            </td>
-            <td>
-                @if(item.AreaID > 0)
-                {
-                    <span>@db.WorkAreas.Find(item.AreaID).Nombre</span>
-                }
-                else
-                {
-                    <span>Sin Area</span>
-                }
-            </td>
-            <td>
-                @if (item.EstadoID < 6)
-                {
-                    <span>@db.WorkStatus.Find(item.EstadoID).Nombre</span>
-                }
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Puntaje)
-            </td>
-            <td>
-                <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-                        Acciones
-                        <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                        <li role="presentation" class="dropdown-header">Elija una opción</li>
-                        <li role="presentation">@*@Html.ActionLink("Editar", "Edit", new { id = item.Id })*@</li>
-                        <li role="presentation">@Html.ActionLink("Ver trabajo", "Details", new { id = item.Id })</li>
-                        <li role="presentation">@Html.ActionLink("Exportar Trabajo", "Export", new { id = item.Id }, new { target = "_blank" })</li>
-                        <li role="presentation">@Html.ActionLink("Eliminar", "Delete", new { id = item.Id })</li>
-                        @*Response.Redirect("~/Trabajos.aspx?internal=" + Utils.Base64String.Base64Encode(currentAck.DNI) + "&work=" + Utils.Base64String.Base64Encode(workid));*@
-                        <li role="presentation"><a href="http://acreditaciones.azurewebsites.net/Trabajos.aspx?internal=@AcreditacionesBackend.Utils.Base64String.Base64Encode(item.Accreditation.DNI)&work=@AcreditacionesBackend.Utils.Base64String.Base64Encode(item.Id.ToString())&poweruser=true" target="_blank">Editar como administrador</a></li>
-                        
-                        <li role="presentation" class="dropdown-header">Evaluación</li>
-                        <li role="presentation">@Html.ActionLink("Asignar a supervisor", "AssignWorkToSupervisor", new { id = item.Id })</li>
-                    </ul>
-                </div>
-            </td>
-            @*<td>
-                    @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-                    @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-                    @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-                </td>*@
+            <th style="width: 25%;">
+                Título
+            </th>
+            <th style="width: 55%;">
+                Autores
+            </th>
+            <th style="width: 10%;">
+                Estado
+            </th>
+            <th style="width: 10%;">
+                @Html.DisplayNameFor(model => model.Puntaje)
+            </th>
+            <th></th>
         </tr>
-    }
 
-</table>
+        @foreach (var item in Model.Where(x => x.AreaID.Equals(area.Id)))
+        {
+            <tr>
+                <td>
+                    @Html.Raw(AcreditacionesBackend.Utils.HtmlRemoval.StripTagsRegex(item.Title))
+                </td>
+                <td>
+                    <ul>
+                        @Html.Raw(string.Join("", item.Authors.Select(x => string.Format("<li><strong>{0}</strong> {1}</li>", x.Nombre, x.Establecimiento))))
+                    </ul>
+                </td>
+                <td>
+                    <span>@db.WorkStatus.Find(item.EstadoID).Nombre</span>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Puntaje)
+                </td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                            Acciones
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation" class="dropdown-header">Elija una opción</li>
+                            <li role="presentation">@*@Html.ActionLink("Editar", "Edit", new { id = item.Id })*@</li>
+                            <li role="presentation">@Html.ActionLink("Ver trabajo", "Details", new { id = item.Id })</li>
+                            <li role="presentation">@Html.ActionLink("Exportar Trabajo", "Export", new { id = item.Id }, new { target = "_blank" })</li>
+                            <li role="presentation">@Html.ActionLink("Eliminar", "Delete", new { id = item.Id })</li>
+                            <li role="presentation"><a href="http://acreditaciones.azurewebsites.net/Trabajos.aspx?internal=@AcreditacionesBackend.Utils.Base64String.Base64Encode(item.Accreditation.DNI)&work=@AcreditacionesBackend.Utils.Base64String.Base64Encode(item.Id.ToString())&poweruser=true" target="_blank">Editar como administrador</a></li>
+                            <li role="presentation" class="dropdown-header">Evaluación</li>
+                            <li role="presentation">@Html.ActionLink("Asignar a supervisor", "AssignWorkToSupervisor", new { id = item.Id })</li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+
+    </table>
+}
