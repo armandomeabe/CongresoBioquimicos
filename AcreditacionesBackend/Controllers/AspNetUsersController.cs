@@ -18,7 +18,7 @@ namespace AcreditacionesBackend.Controllers
         private Entities db = new Entities();
 
         [HttpPost]
-        public async Task<JsonResult> RegisterUser(string email)
+        public async Task<JsonResult> RegisterUser(string email, int area, string nombre, string apellido)
         {
             var model = new RegisterViewModel()
             {
@@ -27,7 +27,12 @@ namespace AcreditacionesBackend.Controllers
                 ConfirmPassword = "SUPERVISOR" + email + DateTime.Now.Year + "!"
             };
 
-            var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+            var user = new ApplicationUser
+            {
+                PhoneNumber = string.Format("{0} {1} ({2})", nombre, apellido, db.WorkAreas.Find(area).Nombre.Trim()),
+                UserName = model.Email,
+                Email = model.Email
+            };
             var result = await HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>().CreateAsync(user, model.Password);
 
             if (result.Succeeded)
@@ -131,10 +136,17 @@ namespace AcreditacionesBackend.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> DeleteConfirmed(string id)
         {
-            AspNetUser aspNetUser = await db.AspNetUsers.FindAsync(id);
-            db.AspNetUsers.Remove(aspNetUser);
-            await db.SaveChangesAsync();
-            return RedirectToAction("Index");
+            try
+            {
+                AspNetUser aspNetUser = await db.AspNetUsers.FindAsync(id);
+                db.AspNetUsers.Remove(aspNetUser);
+                await db.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return RedirectToAction("Index");
+            }
         }
 
         protected override void Dispose(bool disposing)

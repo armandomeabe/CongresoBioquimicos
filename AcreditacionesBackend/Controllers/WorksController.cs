@@ -88,7 +88,7 @@ namespace AcreditacionesBackend.Controllers
         public async Task<ActionResult> AssignWorkToSupervisor(int id)
         {
             var work = await db.Works.FindAsync(id);
-            ViewBag.SupervisorUserId = new SelectList(db.AspNetUsers, "Id", "Email", work.SupervisorUserId);
+            ViewBag.SupervisorUserId = new SelectList(db.AspNetUsers, "Id", "PhoneNumber", work.SupervisorUserId);
             return View(work);
         }
 
