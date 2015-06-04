@@ -298,6 +298,7 @@
     <Content Include="Content\Instructivo carga de trabajos.pdf" />
     <Content Include="Content\Declaracion Gobierno Provincial.pdf" />
     <Content Include="Content\Guía carga de resúmenes.pdf" />
+    <Content Include="Content\Cronograma III CBL y XVI JAM 2015.pdf" />
     <None Include="Properties\PublishProfiles\Acreditaciones - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\Acreditaciones - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

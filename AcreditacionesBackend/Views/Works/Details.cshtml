@@ -12,7 +12,7 @@
 <h2>Ver trabajo</h2>
 
 <div>
-    @Html.Raw(Model.Title)
+    <h1><strong><i><strong>@string.Format("{0}-{1}", Model.AreaID, Model.PosicionEnElArea.Value)</strong> &nbsp; '@Html.Raw(AcreditacionesBackend.Utils.HtmlRemoval.StripTagsRegex(Model.Title))'</i></strong></h1>
     <hr />
     <dl class="dl-horizontal">
         <div class="row well">

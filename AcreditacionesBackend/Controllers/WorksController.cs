@@ -109,9 +109,14 @@ namespace AcreditacionesBackend.Controllers
         }
 
         [Authorize(Roles = "admin")]
-        public async Task<ActionResult> Index()
+        public async Task<ActionResult> Index(bool? notFinished)
         {
-            return View(await db.Works.Where(x => x.EstadoID != 1).ToListAsync());
+            ViewBag.NotFinished = notFinished.GetValueOrDefault(false);
+
+            if(notFinished.GetValueOrDefault(false))
+                return View(await db.Works.Where(x => x.EstadoID == 1).OrderBy(x => x.Id).ToListAsync());
+
+            return View(await db.Works.Where(x => x.EstadoID != 1).OrderBy(x => x.Id).ToListAsync());
         }
 
         [Authorize(Roles = "admin")]

@@ -79,7 +79,12 @@ namespace AcreditacionesBackend.Controllers
             switch (result)
             {
                 case SignInStatus.Success:
-                    return RedirectToLocal(returnUrl);
+                {
+                    if (User.IsInRole("admin"))
+                        return RedirectToLocal(returnUrl);
+
+                    return RedirectToLocal("/Works/Assigned");
+                }
                 case SignInStatus.LockedOut:
                     return View("Lockout");
                 case SignInStatus.RequiresVerification:

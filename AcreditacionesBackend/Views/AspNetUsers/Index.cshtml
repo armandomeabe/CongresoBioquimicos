@@ -119,8 +119,8 @@
                     </button>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                         <li role="presentation" class="dropdown-header">Elija una opción</li>
-                        <li role="presentation">@Html.ActionLink("Ver Información Completa", "Details", new { id = item.Id })</li>
-                        <li role="presentation">@Html.ActionLink("Editar", "Edit", new { id = item.Id })</li>
+                        @*<li role="presentation">@Html.ActionLink("Ver Información Completa", "Details", new { id = item.Id })</li>
+                        <li role="presentation">@Html.ActionLink("Editar", "Edit", new { id = item.Id })</li>*@
                         <li role="presentation">@Html.ActionLink("Eliminar", "Delete", new { id = item.Id })</li>
                     </ul>
                 </div>

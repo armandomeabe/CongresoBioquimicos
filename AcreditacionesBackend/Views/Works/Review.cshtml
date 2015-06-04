@@ -15,7 +15,7 @@
     @Html.AntiForgeryToken()
     @Html.HiddenFor(model => model.Id)
     <div>
-        <h1><strong><i>'@AcreditacionesBackend.Utils.HtmlRemoval.StripTagsRegex(Model.Title)'</i></strong></h1>
+        <h1><strong><i><strong>@string.Format("{0}-{1}", Model.AreaID, Model.PosicionEnElArea.Value)</strong> &nbsp; '@Html.Raw(AcreditacionesBackend.Utils.HtmlRemoval.StripTagsRegex(Model.Title))'</i></strong></h1>
         <hr />
         <dl class="dl-horizontal">
             <dt>
@@ -23,7 +23,7 @@
             </dt>
 
             <dd>
-                <strong>@AcreditacionesBackend.Utils.HtmlRemoval.StripTagsRegex(Model.Title)</strong>
+                <strong>@Html.Raw(AcreditacionesBackend.Utils.HtmlRemoval.StripTagsRegex(Model.Title))</strong>
             </dd>
             <br />
             <div class="row well">
@@ -111,4 +111,17 @@
             </div>
         </div>
     </div>
+}
+
+@section scripts
+{
+    <script type="text/javascript">
+        function validate() {
+            var result = ($("#Puntaje").val() < 0 || $("#Puntaje").val() > 100);
+
+            if (result) {
+                alert('Debe ingresar un puntaje');
+            }
+        }
+    </script>
 }

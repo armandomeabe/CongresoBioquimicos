@@ -101,19 +101,23 @@ namespace Acreditaciones
 
             divComentariosDelEvaluador.Visible = false;
 
-            if ((work.EstadoID != 1 && work.EstadoID != 5 && !isadmin) || (work.EstadoID > 1 && !work.Supervisado.GetValueOrDefault(false)))
+            if (!isadmin)
             {
-                Mensaje.Visible = true;
-                Editor.Visible = false;
-                var estado = db.WorkStatus.Find(work.EstadoID);
-                ViewState["Estado"] = estado.Nombre;
-            }
-            else
-            {
-                if (!string.IsNullOrWhiteSpace(work.ComentariosDelEvaluador))
+                if ((work.EstadoID != 1 && work.EstadoID != 5) ||
+                    (work.EstadoID > 1 && !work.Supervisado.GetValueOrDefault(false)))
                 {
-                    H1.InnerText = Utils.HtmlRemoval.StripTagsRegex(work.ComentariosDelEvaluador);
-                    divComentariosDelEvaluador.Visible = true;
+                    Mensaje.Visible = true;
+                    Editor.Visible = false;
+                    var estado = db.WorkStatus.Find(work.EstadoID);
+                    ViewState["Estado"] = estado.Nombre;
+                }
+                else
+                {
+                    if (!string.IsNullOrWhiteSpace(work.ComentariosDelEvaluador))
+                    {
+                        H1.InnerText = Utils.HtmlRemoval.StripTagsRegex(work.ComentariosDelEvaluador);
+                        divComentariosDelEvaluador.Visible = true;
+                    }
                 }
             }
 

@@ -84,8 +84,8 @@
             <PropertyRef Name="id" />
           </Key>
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Nombre" Type="nvarchar" MaxLength="100" />
-          <Property Name="Establecimiento" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="300" />
+          <Property Name="Establecimiento" Type="nvarchar(max)" />
           <Property Name="IdWork" Type="int" Nullable="false" />
           <Property Name="IdEstablishment" Type="int" Nullable="false" />
           <Property Name="IsPresenter" Type="bit" />
@@ -423,8 +423,8 @@
             <PropertyRef Name="id" />
           </Key>
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="Establecimiento" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Nombre" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Name="Establecimiento" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="IdWork" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Work" Relationship="Model.FK_Author_Work" FromRole="Author" ToRole="Work" />
           <Property Name="IdEstablishment" Type="Int32" Nullable="false" />

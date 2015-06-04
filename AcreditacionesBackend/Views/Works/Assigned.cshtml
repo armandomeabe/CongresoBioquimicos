@@ -28,6 +28,7 @@
     {
         <tr>
             <td>
+                <strong>@string.Format("{0}-{1}", item.AreaID, item.PosicionEnElArea.Value)</strong>
                 @Html.Raw(AcreditacionesBackend.Utils.HtmlRemoval.StripTagsRegex(item.Title))
             </td>
             <td>
@@ -50,7 +51,14 @@
                         <li role="presentation">@Html.ActionLink("Supervisar éste trabajo", "Review", new { id = item.Id })</li>
                         @if (item.Puntaje.HasValue)
                         {
-                            <li role="presentation">@Html.ActionLink("Finalizar supervisión - Puntaje: " + item.Puntaje, "Finalize", new { id = item.Id })</li>
+                            if (item.Puntaje.Value.Equals(0) || item.Puntaje.Value < 0 || item.Puntaje.Value > 100)
+                            {
+                                <li role="presentation">@Html.ActionLink("Elija el puntaje para finalizar", "Review", new { id = item.Id })</li>
+                            }
+                            else
+                            {
+                                <li role="presentation">@Html.ActionLink("Finalizar supervisión - Puntaje: " + item.Puntaje, "Finalize", new { id = item.Id })</li>
+                            }
                         }
                     </ul>
                 </div>
